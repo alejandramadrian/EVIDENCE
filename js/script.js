@@ -16,10 +16,10 @@ if (btnCreditos) {
     });
 }
 
-const btnComenzar = document.getElementById ('btnComenzar');
+const btnSiguiente = document.getElementById ('btnSiguiente');
  
-if (btnComenzar) {
-    btnComenzar.addEventListener('click', function (){
+if (btnSiguiente) {
+    btnSiguiente.addEventListener('click', function (){
 
         window.location.href = '../seleccion/seleccion.html'
     });
@@ -31,6 +31,6 @@ const btnInicio = document.getElementById ('btnInicio');
 if (btnInicio) {
     btnInicio.addEventListener('click', function (){
 
-        window.location.href = '../home.html'
+        window.location.href = '../index.html'
     });
 }
