@@ -24,3 +24,13 @@ if (btnComenzar) {
         window.location.href = '../seleccion/seleccion.html'
     });
 }
+
+
+const btnInicio = document.getElementById ('btnInicio');
+ 
+if (btnInicio) {
+    btnInicio.addEventListener('click', function (){
+
+        window.location.href = '../home.html'
+    });
+}
